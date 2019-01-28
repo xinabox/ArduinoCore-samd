@@ -26,7 +26,27 @@
 #define SPI_IMODE_EXTINT 1
 #define SPI_IMODE_GLOBAL 2
 
-const SPISettings DEFAULT_SPI_SETTINGS = SPISettings();
+//const SPISettings DEFAULT_SPI_SETTINGS = SPISettings();
+
+static inline SercomDataOrder getBitOrder(SPISettings& settings) {
+  return (settings.getBitOrder() == MSBFIRST ? MSB_FIRST : LSB_FIRST);
+}
+
+static inline SercomSpiClockMode getDataMode(SPISettings& settings) {
+    switch (settings.getDataMode())
+    {
+      case SPI_MODE0:
+        return SERCOM_SPI_MODE_0; break;
+      case SPI_MODE1:
+        return SERCOM_SPI_MODE_1; break;
+      case SPI_MODE2:
+        return SERCOM_SPI_MODE_2; break;
+      case SPI_MODE3:
+        return SERCOM_SPI_MODE_3; break;
+      default:
+        return SERCOM_SPI_MODE_0; break;
+    }
+}
 
 SPIClass::SPIClass(SERCOM *p_sercom, uint8_t uc_pinMISO, uint8_t uc_pinSCK, uint8_t uc_pinMOSI, SercomSpiTXPad PadTx, SercomRXPad PadRx)
 {
@@ -70,8 +90,8 @@ void SPIClass::config(SPISettings settings)
 {
   _p_sercom->disableSPI();
 
-  _p_sercom->initSPI(_padTx, _padRx, SPI_CHAR_SIZE_8_BITS, settings.bitOrder);
-  _p_sercom->initSPIClock(settings.dataMode, settings.clockFreq);
+  _p_sercom->initSPI(_padTx, _padRx, SPI_CHAR_SIZE_8_BITS, getBitOrder(settings));
+  _p_sercom->initSPIClock(getDataMode(settings), settings.getClockFreq());
 
   _p_sercom->enableSPI();
 }
