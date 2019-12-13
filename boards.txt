@@ -48,7 +48,7 @@ xinabox_cc03.build.variant_system_lib=
 xinabox_cc03.build.vid=0x2341
 xinabox_cc03.build.pid=0x804d
 xinabox_cc03.bootloader.tool=openocd
-xinabox_cc03.bootloader.file=zero/samd21_sam_ba.bin
+xinabox_cc03.bootloader.file=xinabox_cc03/samd21_sam_ba.bin
 xinabox_cc03.menu.version=V1.0.0
 xinabox_cc03.menu.version=V1.1.0
 
@@ -84,7 +84,7 @@ xinabox_cs11.build.variant_system_lib=
 xinabox_cs11.build.vid=0x2341
 xinabox_cs11.build.pid=0x804d
 xinabox_cs11.bootloader.tool=openocd
-xinabox_cs11.bootloader.file=zero/samd21_sam_ba.bin
+xinabox_cs11.bootloader.file=xinabox_cs11/samd21_sam_ba.bin
 
 # XinaBox CW03
 # --------------------
@@ -113,7 +113,7 @@ xinabox_cw03.build.variant=xinabox_cw03
 xinabox_cw03.build.vid=0x2341
 xinabox_cw03.build.pid=0x8057
 xinabox_cw03.bootloader.tool=openocd
-xinabox_cw03.bootloader.file=nano_33_iot/samd21_sam_ba_arduino_nano_33_iot.bin
+xinabox_cw03.bootloader.file=xinabox_cw03/samd21_sam_ba_arduino_nano_33_iot.bin
 xinabox_cw03.menu.version=V1.1.5
 xinabox_cw03.menu.version=V1.1.3
 xinabox_cw03.menu.version=V1.1.4
