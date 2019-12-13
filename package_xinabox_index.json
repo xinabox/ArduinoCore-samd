@@ -106,7 +106,7 @@
             "version": "1.0.0"
           }
         ],
-        "name": "XinaBox Limited",
+        "name": "xinabox",
         "email": "support@xinabox.cc",
         "maintainer": "XinaBox",
         "platforms": [
@@ -115,10 +115,10 @@
             "architecture": "samd",
             "version": "1.0.0",
             "category": "XinaBox",
-            "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.5.7.tar.bz2",
-            "archiveFileName": "adafruit-samd-1.5.7.tar.bz2",
-            "checksum": "SHA-256:59267855d8caed9dc736fb986be71b341eb245067c94b474778269ea1c29f830",
-            "size": "18933395",
+            "url": "https://github.com/xinabox/ArduinoCore-samd/blob/master/version/xinabox-samd-1.0.0.zip",
+            "archiveFileName": "xinabox-samd-1.0.0.zip",
+            "checksum": "SHA-256:466d85c08e82e1aa94a3114dedcbb90e36456c3f889ab6b7d86f2e9ead98b897",
+            "size": "22615925",
             "boards": [
               {
                 "name": "XinaBox CC03 (USB Native)"
