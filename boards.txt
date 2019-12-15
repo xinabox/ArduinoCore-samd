@@ -150,6 +150,7 @@ mkr1000.build.vid=0x2341
 mkr1000.build.pid=0x804e
 mkr1000.bootloader.tool=openocd
 mkr1000.bootloader.file=mkr1000/samd21_sam_ba_arduino_mkr1000.bin
+mkr1000.menu.version=V1.1.5
 
 # Arduino MKR WiFi 1010
 # --------------------
@@ -179,6 +180,7 @@ mkrwifi1010.build.vid=0x2341
 mkrwifi1010.build.pid=0x8054
 mkrwifi1010.bootloader.tool=openocd
 mkrwifi1010.bootloader.file=mkrwifi1010/samd21_sam_ba_arduino_mkrwifi1010.bin
+mkrwifi1010.menu.version=V1.1.5
 
 # Arduino NANO 33 IoT
 # --------------------
@@ -208,3 +210,4 @@ nano_33_iot.build.vid=0x2341
 nano_33_iot.build.pid=0x8057
 nano_33_iot.bootloader.tool=openocd
 nano_33_iot.bootloader.file=nano_33_iot/samd21_sam_ba_arduino_nano_33_iot.bin
+nano_33_iot.menu.version=V1.1.5
