@@ -19,14 +19,8 @@ menu.version=Version
 # XinaBox CC03 (Native USB Port)
 # --------------------------------------
 xinabox_cc03.name= XinaBox CC03 (Native USB Port)
-xinabox_cc03.vid.0=0x2341
-xinabox_cc03.pid.0=0x804d
-xinabox_cc03.vid.1=0x2341
-xinabox_cc03.pid.1=0x004d
-xinabox_cc03.vid.2=0x2341
-xinabox_cc03.pid.2=0x824d
-xinabox_cc03.vid.3=0x2341
-xinabox_cc03.pid.3=0x024d
+xinabox_cc03.vid.0=0x04d8
+xinabox_cc03.pid.0=0xec72
 
 xinabox_cc03.upload.tool=bossac
 xinabox_cc03.upload.protocol=sam-ba
@@ -45,8 +39,8 @@ xinabox_cc03.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 xinabox_cc03.build.openocdscript=openocd_scripts/xinabox_cc03.cfg
 xinabox_cc03.build.variant=xinabox_cc03
 xinabox_cc03.build.variant_system_lib=
-xinabox_cc03.build.vid=0x2341
-xinabox_cc03.build.pid=0x804d
+xinabox_cc03.build.vid=0x04d8
+xinabox_cc03.build.pid=0xec72
 xinabox_cc03.bootloader.tool=openocd
 xinabox_cc03.bootloader.file=xinabox_cc03/samd21_sam_ba.bin
 xinabox_cc03.menu.version=V1.0.0
@@ -55,14 +49,8 @@ xinabox_cc03.menu.version=V1.1.0
 # XinaBox CS11 (Native USB Port)
 # --------------------------------------
 xinabox_cs11.name= XinaBox CS11 (Native USB Port)
-xinabox_cs11.vid.0=0x2341
-xinabox_cs11.pid.0=0x804d
-xinabox_cs11.vid.1=0x2341
-xinabox_cs11.pid.1=0x004d
-xinabox_cs11.vid.2=0x2341
-xinabox_cs11.pid.2=0x824d
-xinabox_cs11.vid.3=0x2341
-xinabox_cs11.pid.3=0x024d
+xinabox_cs11.vid.0=0x04d8
+xinabox_cs11.pid.0=0xec75
 
 xinabox_cs11.upload.tool=bossac
 xinabox_cs11.upload.protocol=sam-ba
@@ -81,18 +69,16 @@ xinabox_cs11.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 xinabox_cs11.build.openocdscript=openocd_scripts/xinabox_cs11.cfg
 xinabox_cs11.build.variant=xinabox_cs11
 xinabox_cs11.build.variant_system_lib=
-xinabox_cs11.build.vid=0x2341
-xinabox_cs11.build.pid=0x804d
+xinabox_cs11.build.vid=0x04d8
+xinabox_cs11.build.pid=0xec75
 xinabox_cs11.bootloader.tool=openocd
 xinabox_cs11.bootloader.file=xinabox_cs11/samd21_sam_ba.bin
 
 # XinaBox CW03
 # --------------------
 xinabox_cw03.name=XinaBox CW03
-xinabox_cw03.vid.0=0x2341
-xinabox_cw03.pid.0=0x8057
-xinabox_cw03.vid.1=0x2341
-xinabox_cw03.pid.1=0x0057
+xinabox_cw03.vid.0=0x04d8
+xinabox_cw03.pid.0=0xed5e
 
 xinabox_cw03.upload.tool=bossac
 xinabox_cw03.upload.protocol=sam-ba
@@ -110,8 +96,8 @@ xinabox_cw03.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 xinabox_cw03.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 xinabox_cw03.build.openocdscript=openocd_scripts/xinabox_cw03.cfg
 xinabox_cw03.build.variant=xinabox_cw03
-xinabox_cw03.build.vid=0x2341
-xinabox_cw03.build.pid=0x8057
+xinabox_cw03.build.vid=0x04d8
+xinabox_cw03.build.pid=0xed5e
 xinabox_cw03.bootloader.tool=openocd
 xinabox_cw03.bootloader.file=xinabox_cw03/samd21_sam_ba_arduino_nano_33_iot.bin
 xinabox_cw03.menu.version=V1.1.5
