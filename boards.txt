@@ -14,8 +14,6 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-menu.version=Version
-
 # XinaBox CC03 (Native USB Port)
 # --------------------------------------
 xinabox_cc03.name= XinaBox CC03 (Native USB Port)
@@ -43,8 +41,6 @@ xinabox_cc03.build.vid=0x04d8
 xinabox_cc03.build.pid=0xec72
 xinabox_cc03.bootloader.tool=openocd
 xinabox_cc03.bootloader.file=xinabox_cc03/samd21_sam_ba.bin
-xinabox_cc03.menu.version=V1.0.0
-xinabox_cc03.menu.version=V1.1.0
 
 # XinaBox CS11 (Native USB Port)
 # --------------------------------------
@@ -99,10 +95,7 @@ xinabox_cw03.build.variant=xinabox_cw03
 xinabox_cw03.build.vid=0x04d8
 xinabox_cw03.build.pid=0xed5e
 xinabox_cw03.bootloader.tool=openocd
-xinabox_cw03.bootloader.file=xinabox_cw03/samd21_sam_ba_arduino_nano_33_iot.bin
-xinabox_cw03.menu.version=V1.1.5
-xinabox_cw03.menu.version=V1.1.3
-xinabox_cw03.menu.version=V1.1.4
+xinabox_cw03.bootloader.file=xinabox_cw03/samd21_sam_ba.bin
 
 # Arduino MKR1000
 # -----------------------
@@ -136,7 +129,6 @@ mkr1000.build.vid=0x2341
 mkr1000.build.pid=0x804e
 mkr1000.bootloader.tool=openocd
 mkr1000.bootloader.file=mkr1000/samd21_sam_ba_arduino_mkr1000.bin
-mkr1000.menu.version=V1.1.5
 
 # Arduino MKR WiFi 1010
 # --------------------
@@ -166,7 +158,6 @@ mkrwifi1010.build.vid=0x2341
 mkrwifi1010.build.pid=0x8054
 mkrwifi1010.bootloader.tool=openocd
 mkrwifi1010.bootloader.file=mkrwifi1010/samd21_sam_ba_arduino_mkrwifi1010.bin
-mkrwifi1010.menu.version=V1.1.5
 
 # Arduino NANO 33 IoT
 # --------------------
@@ -196,4 +187,3 @@ nano_33_iot.build.vid=0x2341
 nano_33_iot.build.pid=0x8057
 nano_33_iot.bootloader.tool=openocd
 nano_33_iot.bootloader.file=nano_33_iot/samd21_sam_ba_arduino_nano_33_iot.bin
-nano_33_iot.menu.version=V1.1.5
